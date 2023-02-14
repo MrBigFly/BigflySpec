@@ -13,5 +13,5 @@ Pod::Spec.new do |spec|
   spec.module_name   = 'NBSOOM'
   spec.pod_target_xcconfig = {  'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'}
   spec.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
-  spec.dependency 'tingyunApp' , '>=2.17.2'
+  #spec.dependency 'tingyunApp' , '>=2.17.2'
 end
